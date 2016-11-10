@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6D8AE3E1DCB68AA00FA4F36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D8AE3D1DCB68AA00FA4F36 /* AppDelegate.swift */; };
+		D6D8AE401DCB68AA00FA4F36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D8AE3F1DCB68AA00FA4F36 /* ViewController.swift */; };
+		D6D8AE431DCB68AA00FA4F36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D8AE411DCB68AA00FA4F36 /* Main.storyboard */; };
+		D6D8AE461DCB68AA00FA4F36 /* FiFiCalc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6D8AE441DCB68AA00FA4F36 /* FiFiCalc.xcdatamodeld */; };
+		D6D8AE481DCB68AA00FA4F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D8AE471DCB68AA00FA4F36 /* Assets.xcassets */; };
+		D6D8AE4B1DCB68AA00FA4F36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D8AE491DCB68AA00FA4F36 /* LaunchScreen.storyboard */; };
+		D6D8AE541DCB69CA00FA4F36 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D8AE531DCB69CA00FA4F36 /* CalculatorBrain.swift */; };
+		D6D8AE571DCB75AB00FA4F36 /* libfifi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D8AE561DCB75AB00FA4F36 /* libfifi.a */; };
+		D6D8AE591DCB75B900FA4F36 /* libcpuid.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D8AE581DCB75B900FA4F36 /* libcpuid.a */; };
+		D6D8AE5B1DCB75C300FA4F36 /* libfifi_calc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D8AE5A1DCB75C300FA4F36 /* libfifi_calc.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D61B52B71DD210510079DACC /* FiFiCalc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FiFiCalc-Bridging-Header.h"; sourceTree = "<group>"; };
+		D6D8AE3A1DCB68AA00FA4F36 /* FiFiCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiFiCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D8AE3D1DCB68AA00FA4F36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6D8AE3F1DCB68AA00FA4F36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6D8AE421DCB68AA00FA4F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6D8AE451DCB68AA00FA4F36 /* FiFiCalc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FiFiCalc.xcdatamodel; sourceTree = "<group>"; };
+		D6D8AE471DCB68AA00FA4F36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6D8AE4A1DCB68AA00FA4F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6D8AE4C1DCB68AA00FA4F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6D8AE531DCB69CA00FA4F36 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		D6D8AE561DCB75AB00FA4F36 /* libfifi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfifi.a; path = FiFiCalc/libfifi.a; sourceTree = "<group>"; };
+		D6D8AE581DCB75B900FA4F36 /* libcpuid.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcpuid.a; path = FiFiCalc/libcpuid.a; sourceTree = "<group>"; };
+		D6D8AE5A1DCB75C300FA4F36 /* libfifi_calc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfifi_calc.a; path = FiFiCalc/libfifi_calc.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6D8AE371DCB68AA00FA4F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D8AE591DCB75B900FA4F36 /* libcpuid.a in Frameworks */,
+				D6D8AE571DCB75AB00FA4F36 /* libfifi.a in Frameworks */,
+				D6D8AE5B1DCB75C300FA4F36 /* libfifi_calc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6D8AE311DCB68AA00FA4F36 = {
+			isa = PBXGroup;
+			children = (
+				D6D8AE3C1DCB68AA00FA4F36 /* FiFiCalc */,
+				D6D8AE3B1DCB68AA00FA4F36 /* Products */,
+				D6D8AE551DCB75AA00FA4F36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6D8AE3B1DCB68AA00FA4F36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6D8AE3A1DCB68AA00FA4F36 /* FiFiCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6D8AE3C1DCB68AA00FA4F36 /* FiFiCalc */ = {
+			isa = PBXGroup;
+			children = (
+				D6D8AE531DCB69CA00FA4F36 /* CalculatorBrain.swift */,
+				D6D8AE521DCB68C700FA4F36 /* Supporting Files */,
+				D6D8AE3F1DCB68AA00FA4F36 /* ViewController.swift */,
+				D6D8AE411DCB68AA00FA4F36 /* Main.storyboard */,
+				D61B52B71DD210510079DACC /* FiFiCalc-Bridging-Header.h */,
+			);
+			path = FiFiCalc;
+			sourceTree = "<group>";
+		};
+		D6D8AE521DCB68C700FA4F36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6D8AE3D1DCB68AA00FA4F36 /* AppDelegate.swift */,
+				D6D8AE471DCB68AA00FA4F36 /* Assets.xcassets */,
+				D6D8AE491DCB68AA00FA4F36 /* LaunchScreen.storyboard */,
+				D6D8AE4C1DCB68AA00FA4F36 /* Info.plist */,
+				D6D8AE441DCB68AA00FA4F36 /* FiFiCalc.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6D8AE551DCB75AA00FA4F36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6D8AE5A1DCB75C300FA4F36 /* libfifi_calc.a */,
+				D6D8AE581DCB75B900FA4F36 /* libcpuid.a */,
+				D6D8AE561DCB75AB00FA4F36 /* libfifi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6D8AE391DCB68AA00FA4F36 /* FiFiCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D8AE4F1DCB68AA00FA4F36 /* Build configuration list for PBXNativeTarget "FiFiCalc" */;
+			buildPhases = (
+				D6D8AE361DCB68AA00FA4F36 /* Sources */,
+				D6D8AE371DCB68AA00FA4F36 /* Frameworks */,
+				D6D8AE381DCB68AA00FA4F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FiFiCalc;
+			productName = FiFiCalc;
+			productReference = D6D8AE3A1DCB68AA00FA4F36 /* FiFiCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6D8AE321DCB68AA00FA4F36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Steinwurf ApS";
+				TargetAttributes = {
+					D6D8AE391DCB68AA00FA4F36 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9B3PSLND9S;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D6D8AE351DCB68AA00FA4F36 /* Build configuration list for PBXProject "FiFiCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6D8AE311DCB68AA00FA4F36;
+			productRefGroup = D6D8AE3B1DCB68AA00FA4F36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6D8AE391DCB68AA00FA4F36 /* FiFiCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6D8AE381DCB68AA00FA4F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D8AE4B1DCB68AA00FA4F36 /* LaunchScreen.storyboard in Resources */,
+				D6D8AE481DCB68AA00FA4F36 /* Assets.xcassets in Resources */,
+				D6D8AE431DCB68AA00FA4F36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6D8AE361DCB68AA00FA4F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D8AE401DCB68AA00FA4F36 /* ViewController.swift in Sources */,
+				D6D8AE3E1DCB68AA00FA4F36 /* AppDelegate.swift in Sources */,
+				D6D8AE541DCB69CA00FA4F36 /* CalculatorBrain.swift in Sources */,
+				D6D8AE461DCB68AA00FA4F36 /* FiFiCalc.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D6D8AE411DCB68AA00FA4F36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6D8AE421DCB68AA00FA4F36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6D8AE491DCB68AA00FA4F36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6D8AE4A1DCB68AA00FA4F36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6D8AE4D1DCB68AA00FA4F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6D8AE4E1DCB68AA00FA4F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6D8AE501DCB68AA00FA4F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 9B3PSLND9S;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/src";
+				INFOPLIST_FILE = FiFiCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FiFiCalc",
+				);
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steinwurf.FiFiCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FiFiCalc/FiFiCalc-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		D6D8AE511DCB68AA00FA4F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 9B3PSLND9S;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/src";
+				INFOPLIST_FILE = FiFiCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FiFiCalc",
+				);
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steinwurf.FiFiCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FiFiCalc/FiFiCalc-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6D8AE351DCB68AA00FA4F36 /* Build configuration list for PBXProject "FiFiCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D8AE4D1DCB68AA00FA4F36 /* Debug */,
+				D6D8AE4E1DCB68AA00FA4F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D8AE4F1DCB68AA00FA4F36 /* Build configuration list for PBXNativeTarget "FiFiCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D8AE501DCB68AA00FA4F36 /* Debug */,
+				D6D8AE511DCB68AA00FA4F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D6D8AE441DCB68AA00FA4F36 /* FiFiCalc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D6D8AE451DCB68AA00FA4F36 /* FiFiCalc.xcdatamodel */,
+			);
+			currentVersion = D6D8AE451DCB68AA00FA4F36 /* FiFiCalc.xcdatamodel */;
+			path = FiFiCalc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D6D8AE321DCB68AA00FA4F36 /* Project object */;
+}
