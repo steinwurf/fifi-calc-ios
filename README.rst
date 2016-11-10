@@ -1,6 +1,7 @@
 =========
 fifi-calc
 =========
+FiFiCalc is an iOS finite field calculator which serves little or no practical purpose. It has been made soley to learn about the swift language and the xcode IDE.
 
 Generate PNGs
 =============
